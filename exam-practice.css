@@ -4,6 +4,6 @@ body {
 .container {
   background-color: red;
 }
-left-column {
-  padding: 0px;
+.left-column p:nth-child(1) {
+  padding: 5px;
 }
