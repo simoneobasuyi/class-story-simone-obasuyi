@@ -1,5 +1,5 @@
 body {
-  background-color: green;
+  background-color: gray;
 }
 .container {
   background-color: red;
@@ -17,6 +17,7 @@ p {
 .caption {
   font-size: 10px;
   font-color: gray;
+  padding: 10px;
 }
 h1 {
   font-size: 35px;
