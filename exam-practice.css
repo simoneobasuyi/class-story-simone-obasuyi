@@ -24,8 +24,9 @@ p {
 }
 .caption {
   font-size: 10px;
-  color: gray;
+  color: #434040;
   padding: 10px;
+  text-decoration: underline;
 }
 h1 {
   font-size: 35px;
