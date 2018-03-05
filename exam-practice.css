@@ -4,6 +4,7 @@ body {
 .container {
   background-color: red;
   max-width: 900px;
+  margin: 0 auto;
 }
 .left-column p:nth-child(1) {
   font-weight: bold;
