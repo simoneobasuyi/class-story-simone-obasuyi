@@ -22,13 +22,6 @@ img {
 p {
   font-size: 15px;
 }
-.left-column {
-  width: 248px;
-}
-.right-column {
-  width: 743px;
-  padding: 10px;
-}
 .caption {
   font-size: 10px;
   color: gray;
@@ -37,8 +30,13 @@ p {
 h1 {
   font-size: 35px;
 }
-@@media (min-width:500px) {
-
-} {
+@media (min-width:500px) {
+.left-column {
+  width: 25%;
+}
+.right-column {
+  width: 75%;
+  padding: 10px;
+}
 
 }
