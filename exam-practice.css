@@ -16,6 +16,7 @@ body {
 }
 .left-column p:nth-child(2) {
   font-style: italic;
+  font-size: 10px;
 }
 img {
   width: 100%;
