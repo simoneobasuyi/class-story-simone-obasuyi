@@ -1,5 +1,6 @@
 body {
   background-color: gray;
+  font-family: monospace;
 }
 .container {
   background-color: #C48888;
@@ -7,6 +8,7 @@ body {
   max-width: 900px;
   border: 25px solid black;
   padding: 25px;
+  box-shadow: 5px 10px #888888;
   }
 .left-column p:nth-child(1) {
   font-weight: bold;
