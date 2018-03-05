@@ -2,14 +2,12 @@ body {
   background-color: gray;
 }
 .container {
-  background-color: red;
-  margin: 0 auto
+  background-color: #C48888;
+  margin: 0 auto;
   max-width: 900px;
   border: 25px solid black;
   padding: 25px;
-  display: inline-block;
-  align-content: center;
-}
+  }
 .left-column p:nth-child(1) {
   font-weight: bold;
   font-size: 17px;
@@ -17,32 +15,30 @@ body {
 .left-column p:nth-child(2) {
   font-style: italic;
 }
-.resize {
-  width: 100px;
-  height: 25%;
-  padding-right: 25px;
-  display: inline;
-  align-content: center;
-  padding-left: 25px;
+img {
+  width: 100%;
 }
+
 p {
   font-size: 15px;
 }
 .left-column {
-  margin: 0 auto;
   width: 248px;
 }
 .right-column {
   width: 743px;
   padding: 10px;
-  margin: 0 auto;
 }
 .caption {
   font-size: 10px;
-  font-color: gray;
+  color: gray;
   padding: 10px;
 }
 h1 {
   font-size: 35px;
-  margin: 0 auto;
+}
+@@media (min-width:500px) {
+
+} {
+
 }
