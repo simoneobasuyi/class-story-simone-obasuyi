@@ -37,6 +37,7 @@ h1 {
 @media (min-width:500px) {
 .left-column {
   width: 25%;
+  border-bottom: dashed black;
 }
 .right-column {
   width: 75%;
