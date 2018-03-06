@@ -1,6 +1,8 @@
 body {
   background-color: gray;
   font-family: monospace;
+  text-align: left;
+  text-decoration: underline;
 }
 .container {
   background-color: #C48888;
@@ -13,6 +15,7 @@ body {
 .left-column p:nth-child(1) {
   font-weight: bold;
   font-size: 17px;
+  font-color: red;
 }
 .left-column p:nth-child(2) {
   font-style: italic;
@@ -20,6 +23,7 @@ body {
 }
 img {
   width: 100%;
+  border: black;
 }
 
 p {
@@ -30,6 +34,7 @@ p {
   color: #434040;
   padding: 10px;
   text-decoration: underline;
+  border-bottom: dashed black;
 }
 h1 {
   font-size: 35px;
